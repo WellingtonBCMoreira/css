@@ -1,0 +1,1098 @@
+@font-face {
+    font-family: newFont;
+    src: url("../../V4.2/public/fonts/ObservatorioNacionalSans-Regular");
+  }
+
+*{
+    margin: 0;
+    width: 2160px;
+    height: 2160px;
+
+}
+
+body{
+    /* background-color: aqua; */
+    width: 2160px;
+    height: 2160px;
+    background-color: #241F49;
+    /* background-image: url("imgs/Tela_Entrada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.corpo{
+    width: 100%;
+    height: 100%;
+    background-image: url("imgs/Tela_Entrada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.integracao_tecnologica{
+    width: 100%;
+    height: 100%;
+    background-image: url("imgs/Tela_Integracao_Tecnologica.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.corpoGrid{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+}
+
+header{
+    /* background-color: aquamarine; */
+    /* background-image: url("imgs/headerImage.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 494px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 110px;
+    font-family: newFont;
+    color: white;
+    font-weight: bold;
+}
+
+.title{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 424px;
+}
+
+.container{
+    /* background-color: white; */
+    width: calc(100% - 300px);
+    height: 1158px;
+    padding: 150px;
+    display:flex;
+    flex-wrap: wrap; /*generar rows*/
+    justify-content: space-evenly;
+}
+
+.container2{
+    /* background-color: white; */
+    width: 2160px;
+    height: 1200px;
+    display:flex;
+    flex-wrap: wrap; /*generar rows*/
+    justify-content: center;
+    position: absolute;
+    top: 630px;
+    /* padding: 30px; */
+}
+
+.containerFullDataDriven{
+    position: absolute;
+    width: 2160px;
+    height: 2160px;
+    display:flex;
+    flex-wrap: wrap; /*generar rows*/
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.blocks{
+    border-style: none;
+    background-color: transparent;
+    /* background-color: blue; */
+    width: 360px;
+    height: 360px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.blocks1{
+    border-style: none;
+    background-color: transparent;
+    /* background-color: blue; */
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.blocksGrid{
+    position: relative;
+    border-style: none;
+    background-color: transparent;
+    width: 880px;
+    height: 495px;
+    border-radius: 5px;
+    margin: 30px;
+    z-index: 1;
+}
+
+.blocksFull{
+    background-color: black;
+    width: 1800px;
+    height: 1125px;
+    margin: 650px auto;
+}
+
+.adjust{
+    z-index: 10;
+    background-color: rgb(65, 65, 65);
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: blueviolet;
+    width: 100%;
+    height: 216px;
+}
+
+/* Icons controlling buttons */
+#ichi {
+    background-image: url("imgs/datadriven.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 720px;
+}
+#ichi2 {
+    background-image: url("imgs/menu_integracao_tecnologica.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 750px;
+    left: 875px;
+}
+#ni {
+    background-image: url("imgs/trabalho.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1400px;
+    left: 680px;
+}
+#ni2 {
+    background-image: url("imgs/tecnologia_olfativa.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1450px;
+    left: 680px;
+}
+#ni3 {
+    background-image: url("imgs/perfil_estadual.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 1060px;
+}
+#san {
+    background-image: url("imgs/futurodaindustria.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1400px;
+    left: 300px;
+}
+#san2 {
+    background-image: url("imgs/futurodaindustria.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1100px;
+    left: 400px;
+}
+#san3 {
+    background-image: url("imgs/textil.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1450px;
+    left: 1325px;
+}
+#san4 {
+    background-image: url("imgs/NewImages/botao_menu_futuro_da_industria.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 750px;
+}
+#san5 {
+    background-image: url("imgs/piso_interativo.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1450px;
+    left: 300px;
+}
+#san6 {
+    background-image: url("imgs/NewImages/botao_menu_eixo_tecnologia_inovacao.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 750px;
+}
+#san7 {
+    background-image: url("imgs/brics.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 300px;
+
+}
+#yon {
+    background-image: url("imgs/tecnologiaeinovacao.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1050px;
+    left: 1060px;
+}
+#yon2 {
+    background-image: url("imgs/projecao_mapeada.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1080px;
+    left: 300px;
+}
+#yon3 {
+    background-image: url("imgs/stripes_led.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1080px;
+    left: 1060px;
+}
+#
+,yon4 {
+    background-image: url("imgs/audio_360.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1080px;
+    left: 1440px;
+}
+#yon5 {
+    background-image: url("imgs/tecnologiaeinovacao.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 600px;
+}
+#go {
+    background-image: url("imgs/macrosetorial.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1400px;
+    left: 1440px;
+}
+#go2 {
+    background-image: url("imgs/tec_mbox.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1450px;
+    left: 1440px;
+}
+#roku {
+    background-image: url("imgs/saude.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1050px;
+    left: 680px;
+}
+#roku2 {
+    background-image: url("imgs/led_touch.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1080px;
+    left: 680px;
+}
+#roku3 {
+    background-image: url("imgs/logisticaIcon.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1100px;
+    left: 1325px;
+}
+#nana {
+    background-image: url("imgs/educacao.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1400px;
+    left: 1060px;
+}
+#nana2 {
+    background-image: url("imgs/interacao_lazer.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1450px;
+    left: 1060px;
+}
+#nana3 {
+    background-image: url("imgs/educacao.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 640px;
+}
+#hachi {
+    background-image: url("imgs/mulheresIcon.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 680px;
+}
+
+#hachi2 {
+    background-image: url("imgs/saude_seguranca_trabalho.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 1325px;
+}
+
+#hachi3 {
+    background-image: url("imgs/perfil_roraima.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 870px;
+}
+
+#hachi4 {
+    background-image: url("imgs/perfil_pernambuco.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 1325px;
+}
+
+#kyu {
+    background-image: url("imgs/NewImages/ICONE_TEMA.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    position: absolute;
+    top: 1730px;
+    left: 530px;
+}
+#kyu1 {
+    background-image: url("imgs/NewImages/botao_menu_integracao_tecnologica.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    position: absolute;
+    top: 1730px;
+    left: 1280px;
+}
+#kyu2 {
+    background-image: url("imgs/integracao_tecnologica.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    position: absolute;
+    top: 210px;
+    left: 1485px;
+}
+#juu {
+    background-image: url("imgs/NewImages/BOTAO_MENU_TEMA.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 750px;
+}
+
+#juu1 {
+    background-image: url("imgs/NewImages/BOTAO_MENU_TEMAS-01.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 750px;
+}
+
+#juu2 {
+    background-image: url("imgs/monitor_da_industriaIcon.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1450px;
+    left: 400px;
+}
+
+#juu3 {
+    background-image: url("imgs/NewImages/botao_menu_trabalho.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 750px;
+}
+
+#juu-ichi {
+    background-image: url("imgs/rotasIcon.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 1450px;
+}
+
+#juu-ichi1 {
+    background-image: url("imgs/grafenoIcon.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+}
+
+
+#juu-ichi2 {
+    background-image: url("imgs/hub_inovacaoIcon.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 1100px;
+}
+
+#juu-ni {
+    background-image: url("imgs/confeccaoIcon.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+}
+
+#juu-ni2 {
+    background-image: url("imgs/confeccaoIcon.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1100px;
+}
+
+#juu-ni3 {
+    background-image: url("imgs/perfil_brasil.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 400px;
+}
+
+#juu-san {
+    background-image: url("imgs/NewImages/BOTAO_MENU_TEMAS.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 750px;
+}
+
+#juu-san1 {
+    background-image: url("imgs/biometano.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 400px;
+
+}
+
+#juu-yon {
+    background-image: url("imgs/NewImages/BOTAO_MENU_ROTAS.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 750px;
+}
+
+#juu-yon1 {
+    background-image: url("imgs/NewImages/botao_menu_tecnologia_inovacao.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 750px;
+}
+
+#juu-yon2 {
+    background-image: url("imgs/NewImages/BOTAO_MENU_MACROSSETORIAL.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 750px;
+}
+
+#juu-yon3 {
+    background-image: url("imgs/macrosetorial.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 400px;
+}
+
+#juu-yon4 {
+    background-image: url("imgs/alimentos.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 860px;
+}
+
+#juu-yon5 {
+    background-image: url("imgs/reindustrializacao.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 1440px;
+}
+
+#juu-yon6 {
+    background-image: url("imgs/NewImages/botao_menu_educacao.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 750px;
+}
+
+#juu-yon7 {
+    background-image: url("imgs/educacao_e_violenvia.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 1100px;
+}
+
+#juu-yon8 {
+    background-image: url("imgs/metalmecanica.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 1325px;
+}
+
+#juu-yon9 {
+    background-image: url("imgs/trabalho.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 640px;
+}
+
+#juu-yo10 {
+    background-image: url("imgs/trab_futuro.png") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 1100px;
+}
+
+
+/* Buttons return */
+#return{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 35px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_001.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#return_1{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 35px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_001.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#return_2{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 35px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_002.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#return_3{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 35px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_003.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#return_4{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 35px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_004.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#return_5{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 35px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_005.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#return_6{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 35px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_006.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#return_7{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 35px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_007.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#return_8{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 35px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_008.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#return_9{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 35px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_002.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menuBack{
+    width: 230px;
+    border-style: none;
+    height: 230px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 1185px;
+    left: 150px;    
+}
+
+.menuBackFull{
+    width: 230px;
+    border-style: none;
+    height: 230px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 1820px;
+    left: 150px;
+}
+
+/* next arrows */
+
+#next_2{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_002.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#next_4{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_001.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#next_5{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_003.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#next_6{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_008.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#next_7{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_004.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#next_8{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_005.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#next_9{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_002.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* Next buttons for full Screen section */
+
+#nextFullData{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_001.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#nextFullSaude{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_006.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#nextFullTecnologia{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_001.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#nextFullMulheres{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_005.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#nextFullIndustria{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_008.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#nextFullTrabalho{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_003.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#nextFullEducacao{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_004.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#nextFullMacro{
+    z-index: 999;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    transform: scale(-1);
+    left: 1980px;
+    top: 1080px;
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    background-image: url("imgs/SETA_002.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gridButton{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    top: 1845px;
+    left: 460px;
+    border-style: none;
+    border-radius: 50%;
+    background-color: transparent;
+}
